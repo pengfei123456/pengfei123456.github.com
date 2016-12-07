@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.dmc{width:231px; height:500px; background:#f4f4f4;}
+.dmc-t li a{width:32px; height:32px; background:#eee; color:#333; font-size:14px; text-align:center; line-height:32px; margin-right:1px; display:block;}
+.dmc-t li a:hover{background:#46c832;}
+.dmc-b{width:203px; height:256px; border-left:1px solid #e5e5e5; margin-left:20px; position:relative; }
+.dmc-b .dl1{color:#333; padding:16px 0 0 32px;}
+.dmc-b .dl2{color:#8a8a8a; margin:4px 0 0 32px;}
+.dmc-b .xbt{width:45px; height:18px; background:url(../img/xb.png) no-repeat; left:0; top:0;  position:absolute; left:-20px; top:36px;}
+.dmc-b .wz{width:45px; height:18px; color:#fff; position:absolute; left:-16px; top:36px;}

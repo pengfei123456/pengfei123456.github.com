@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="author" content="智能社 - zhinengshe.com" />
+<meta name="copyright" content="智能社 - zhinengshe.com" />
+<title>智能社— http://www.zhinengshe.com</title>
+<link href="css/base.css" rel="stylesheet"/>
+<style>
+	/*顶部开始*/
+	.box{width:100%; height:40px; background:url(img/bj.png);}
+	.db{width:1184px; margin:0 auto;}
+	.db-l1{width:20px; height:18px; background:url(img/icons.png) -267px -4px no-repeat; margin-top:10px;}
+	.db-l2{width:15px; height:18px; background:url(img/icons.png) -319px -3px no-repeat; margin:10px 0 0 22px;}
+	.db-l3{line-height:40px; margin-left:20px; color:#009256; }
+	.db-r .list{color:#fff; border-right:1px solid #474747; margin:13px 0; padding:0 15px;}
+	.db-r .last i{width:20px; height:16px; background:url(img/icons.png) 0 -1015px no-repeat red;}
+	.opo{width:100%; height:84px; border-bottom:3px solid #e1e1e1;}
+	.opo0{width:1184px; margin:0 auto; height:84px;}
+	.opol{width:170px; height:28px; background:url(img/icons.png) no-repeat; margin-top:30px; }
+	.opor .list{font-weight:bold; margin:37px 18px;}
+	/*顶部结束*/
+	/*R5开始*/
+	.lyf .tp{width:100%; height:500px; position:relative; z-index:-1;}
+	.mask{width:100%; background:#fff; height:90px; position:absolute; left:0; bottom:0; opacity:0.5;} 
+	.lyf{postition:relative;}
+	.lyf .tp2{postition:absolute; left:50%; top:50%; margin-top:-623px; margin-left:76px; }
+	/*R5结束*/
+	/*明星机型开始*/
+	.mxjxall{background:#f2f2f2; height:800px;}
+	.mxjx{width:1184px; margin:0 auto; background:#f2f2f2;}
+	.mxjx-t{width:300px; height:100px; background:url(img/icons.png) no-repeat 0 -719px; margin:52px 0 40px 523px;}
+	.mxjx-c .boss .dl{font-size:20px; font-weight:bold; margin-top:38px;}
+	.mxjx-c .boss{width:280px; height:566px;} 
+	.mxjx-c .boss .dl1{color:#b4b4b4; margin-top:14px;}
+	.mxjx-c .boss .dl2{color:#00925f; margin-top:14px; margin-left: 90px;}
+	.mxjx-c .boss .dl2 span{background:url(img/icons.png) no-repeat -175px -1014px; width:16px; height:16px; display:block; margin-left:10px;}
+	.mxjx-c .boss p{text-align:center;}
+	.mxjx-c .boss .dl2 .jg{margin-right:10px;}
+	.boss{margin-right:16px;}
+	.four{margin-right:none;}
+	/*明星机型结束*/
+	/*精选配件开始*/
+	.jxpjall{background:#f6f6f6; height:1030px;}
+	.jxpj{width:1184px; margin:100px auto 0;}
+	.jxpj-t img{margin:0 0 40px 440px;}
+	.jxpj-c{width:1180px; height:880px;}
+	.jxpj-cl{width:580px; height:880px;}
+	.jxpj-cltl{width:280px; height:580px; background:#fff; margin-right:20px;}
+	.jxpj-cltl img{margin:40px 0 40px 40px;}
+	.jxpj-cltl p{text-align:center;}
+	.jxpj-cltl p.dl{color:#838383; margin-bottom:10px;}
+	.jxpj-cltl p.dl1{font-size:20px; color:#595959; margin-bottom:14px;}
+	.jxpj-cltl p.dl2{color:#048c5a;}
+	.jxpj-cltr .jxpj-cltrt{width:270px; height:270px; border:solid 5px #eaeaea; background:#fff; margin-bottom:20px;}
+	.jxpj-cltr .jxpj-cltrb{width:280px; height:280px;background:#fff;}
+	.jxpj-cltrb img{margin:16px 0 18px 60px;}
+	.jxpj-cltrb p{text-align:center;}
+	.jxpj-cltrb p.dl{font-size:16px; color:#595959; margin-bottom:10px;}
+	.jxpj-cltrb p.dl1{color:#048c5a;}
+	.derji{width:190px; height:120px; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; margin:22px 0 0 18px; padding:30px 0 0 36px;}
+	.jxpj-cltrt dt{margin:22px 0 0 50px;}
+	.derji p{color:#b2b2b2; line-height:30px;}
+	.zuo{margin-right:10px;}
+	.erji1{width:18px; height:18px; background:url(img/icons.png) no-repeat -135px -357px; display:block; margin-right:10px;}
+	.erji2{width:18px; height:18px; background:url(img/icons.png) no-repeat -135px -392px; display:block; margin-right:10px;}
+	.erji3{width:18px; height:18px; background:url(img/icons.png) no-repeat -135px -430px; display:block; margin-right:10px;}
+	.erji4{width:18px; height:18px; background:url(img/icons.png) no-repeat -250px -354px; display:block; margin-right:10px;}
+	.erji5{width:18px; height:18px; background:url(img/icons.png) no-repeat -250px -393px; display:block; margin-right:10px;}
+	.erji6{width:18px; height:18px; background:url(img/icons.png) no-repeat -250px -430px; display:block; margin-right:10px;}
+	.pj2{width:16px; height:16px; background:url(img/icons.png) no-repeat -176px -1015px; display:block; margin-right:10px;}
+	.clj{color:#00925f; margin:22px 0 0 100px; display:block;}
+	/*问题*/
+	.jxpj-cl .jxpj-clb{width:580px; height:270px; margin-top:18px; background:#fff;}
+	/*问题*/
+	.jxpj-cr{ width:580px; height:880px; margin-left:16px;}
+	.jxpj-cr .jxpj-crt{width:580px; height:270px; background:#fff;}
+	.jxpj-crtr{width:330px; height:90px; margin:110px 0 0 50px;}
+	.jxpj-crtl{margin-left:60px;}
+	.jxpj-crtr p{text-align:center;}
+	.jxpj-crtr .dl{color:#787878; margin-bottom:18px;}
+	.jxpj-crtr .dl1{font-size:22px; color:#6b6b6b;}
+	.jxpj-clbr{width:218px; height:80px; margin:100px 0 0 26px;}
+	.jxpj-clbl{margin:14px 0 0 2px;}
+	.jxpj-clbr p{text-align:center;}
+	.jxpj-clbr .dl1{color:#878787; margin-bottom:6px;}
+	.jxpj-clbr .dl2{font-size:20px; color:#5a5a5a; margin-bottom:14px;}
+	.jxpj-clbr .dl3{color:#039161;}
+	.jxpj-crbl img{margin:0 0 0 0;}
+	.jxpj-crbl p{text-align:center;}
+	.jxpj-crbl{width:280px; height:580px; background:#fff;}
+	.jxpj-crbl .dl{margin:60px 0 6px 0; color:#878787;}
+	.jxpj-crbl .dl1{margin-bottom:14px; color:#555; font-size:20px;}
+	.jxpj-crbl .dl2{color:#018f5d;}
+	.jxpj-crbl img{margin:30px 0 0 10px;}
+	.jxpj-crbrt{width:280px; height:280px; background:#fff; margin-bottom:18px;}
+	.jxpj-crbr{margin-left:16px;}
+	.jxpj-crbrt img{margin:20px 0 0 60px;}
+	.jxpj-crbrt p{text-align:center;}
+	.jxpj-crbrt .dl{color:#555; margin-bottom:10px;  font-size:18px; margin-top:10px;}
+	.jxpj-crbrt .dl1{color:#018f5d;}
+	.jxpj-crbrb{width:280px; height:280px; background:#fff;}
+	
+	.jxpj-crbrb img{margin:20px 0 0 60px;}
+	.jxpj-crbrb p{text-align:center;}
+	.jxpj-crbrb .dl{color:#555; margin-bottom:10px;  font-size:18px; margin-top:10px;}
+	.jxpj-crbrb .dl1{color:#018f5d;}
+	/*精选配件结束*/
+	/*探索开始*/
+	.tsall{width:100%; height:750px; background:#eaeaea; border-top:solid 3px #d9d9d9;}
+	.ts{width:1184px; margin:40px auto 0;}
+	.ts-t img{margin-left:430px;}
+	.ts-c{width:1184px; height:564px; margin-top:40px;}
+	.ts-cr{width:380px; height:564px;}
+	.ts-cl{width:380px; height:564px; margin-right:18px;}
+	.ts-cm{width:380px; height:564px; margin-right:17px;}
+	.ts-clt{width:380px; height:266px; margin-bottom:20px; background:#ecfffb;}
+	.ts-clb{width:380px; height:266px; background:#ecfffb;}
+	.ts-cmt{width:380px; height:266px; margin-bottom:20px; background:#ecfffb;}
+	.ts-cmb{width:380px; height:266px; background:#fff;}
+	.ts-clb p{text-align:center;}
+	.ts-clb .dl{ font-size:22px; color:#2b2d2c;     padding-top:20px;}
+	.ts-clb .dl1{color:#8a8a8a; font-size:16px;}
+	.ts-clb img{margin:10px 0 0 90px;}
+	
+	.ts-clt p{text-align:center;}
+	.ts-clt .dl{padding-top:20px; font-size:22px; color:#2b2d2c;}
+	.ts-clt .dl1{color:#8a8a8a; font-size:16px;}
+	.ts-clt img{margin:10px 0 0 90px;}
+	
+	.ts-cmt p{text-align:center;}
+	.ts-cmt .dl{padding-top:20px; font-size:22px; color:#2b2d2c;}
+	.ts-cmt .dl1{color:#8a8a8a; font-size:16px;}
+	.ts-cmt img{margin:10px 0 0 90px;}
+	
+	.ts-cmb p{text-align:center;}
+	.ts-cmb .dl{padding-top:20px; font-size:22px; color:#2b2d2c;}
+	.ts-cmb .dl1{color:#8a8a8a; font-size:16px;}
+	.ts-cmb img{margin:10px 0 0 90px;}
+	.ts-cr{width:380px; height:564px; background:#fff;}
+	.ts-crtl{width:190px; height:50px; text-align:center; line-height:50px; background:#fff; font-size:16px; color:#a7a7a7;}
+	.ts-crtr{width:190px; height:50px; text-align:center; line-height:50px; background:#dadada; font-size:16px; color:#a7a7a7;}
+	/*探索结束*/
+	/*结尾开始*/
+	.jwall{width:100%; height:366px; background:#fff; margin-top:60px;}
+	.jw{width:1184px; margin:0 auto;}
+	.jw-t{width:100%; height:126px; background:url(img/icons.png) no-repeat -243px -539px; margin-top:46px; border-bottom:#eaeaea 1px solid;}
+	.jw-ct dd{font-size:12px; color:#838383;  margin-bottom:16px;}
+	.jw-ct dt{color:#373737; font-weight:bold; margin-bottom:22px;}
+	.jw-ct i{display:block; width:3px; height:3px; background:url(img/icons.png) no-repeat -331px -1018px; margin:6px 6px 0 0;}
+	.jw-ct dl{margin:30px 120px 0 0;}
+	.jw-ct span.bj1{display:block; width:20px; height:20px; background:url(img/icons.png) no-repeat 0 -854px; margin:-4px 6px 0 0;}
+	.jw-ct span.bj2{display:block; width:20px; height:20px; background:url(img/icons.png) no-repeat 0 -882px; margin:-1px 6px 0 0;}
+	.jw-ct span.bj3{display:block; width:20px; height:20px; background:url(img/icons.png) no-repeat 0 -910px; margin:-1px 6px 0 0;}
+	.jw-ct span.bj4{display:block; width:20px; height:20px; background:url(img/icons.png) no-repeat 0 -940px; margin:-1px 6px 0 0;}
+	.jw-cr i{background:url(img/sj3.png) no-repeat; width:38px; height:38px; margin-right:20px;}
+	.jw-cr span{background:url(img/yuan.png) no-repeat; width:38px; height:38px; margin-right:20px;}
+	.jw-cr .dl{font-size:18px; color:#409f88; margin-bottom:12px;}
+	.jw-cr .dl1{color:#576267;}
+	.jw-crt{margin-top:30px; margin-bottom:30px;}
+	
+	.jw-cr h2{margin-bottom:20px;}
+	/*结尾结束*/
+	/*last开始*/
+	.zhall{width:100%; height:75px; background:url(img/beijing.png);}
+	.zh{width:1084px; margin:20px auto 0;}
+	.zh-l i{width:101px; height:24px; background:url(img/oppp.png) no-repeat; margin-right:20px;}
+	.zh-l{margin-top:30px;}
+	.zh-l p{color:#828282;}
+	.zh-r li{margin:0 20px; color:#fff;}
+	.zh-r{margin-top:30px;}
+	.ts-crb1{width:310px; height:90px; background:#f6f6f6; margin:30px 0 0 36px;}
+	.ts-crb1 p{margin:14px 12px 0 0;}
+	.ts-crb1 img{margin-right:12px;}
+	/*last结束*/
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+	<!--顶部开始-->
+    <div class="box">
+    	<div class="db clearfix">
+        	<div class="db-l clearfix fl">
+            	<i class="db-l1 fl"></i>
+                <i class="db-l2 fl"></i>
+                <i class="db-l3">4001-666-888</i></div>
+            <div class="db-r fr">
+            	<ul class="clearfix">
+                	<li class="list fl">登录</li>
+                    <li class="list fl">注册</li>
+                    <li class="list fl">积分兑换</li>
+                    <li class="list fl">帮助中心</li>
+                    <li class="list fl last"><i></i>购物车</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="opo">
+    	<div class="opo0 clearfix">
+            <div class="opol fl"></div>
+            <div class="opor fr">
+            	<ul class="clearfix">
+                	<li class="list fl">首页</li>
+                    <li class="list fl">手机</li>
+                    <li class="list fl">配件</li>
+                    <li class="list fl">服务</li>
+                    <li class="list fl">体验店</li>
+                    <li class="list fl">软件商店</li>
+                    <li class="list fl">ColorOS</li>
+                    <li class="list fl">社区</li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+    <!--顶部结束-->
+    <!--R5开始-->
+    	<div class="lyf">
+        	<img src="img/lyf.jpg" class="tp"/>
+            <div class="mask"></div>
+            <img src="img/sj.png" class="tp2"/>
+        </div>
+    <!--R5结束-->
+    <!--明星机型开始-->
+   <div class="mxjxall"> 	
+        <div class="mxjx">
+        	<div class="mxjx-t"></div>
+            <div class="mxjx-c clearfix">
+            	<div class="boss fl">
+                	<img src="img/sj1.jpg"/>
+                    <p class="dl">Find7</p>
+                    <p class="dl1">4G全能旗舰</p>
+                    <p class="dl2 clearfix">
+                    	<i class="fl jg">￥2999 </i>			
+                        <i class="fl">立即购买</i>
+                        <span class="fl"></span></p>
+                </div>
+                <div class="boss fl">
+                	<img src="img/sj1.jpg"/>
+                    <p class="dl">Find7</p>
+                    <p class="dl1">4G全能旗舰</p>
+                    <p class="dl2 clearfix">
+                    	<i class="fl jg">￥2999 </i>			
+                        <i class="fl">立即购买</i>
+                        <span class="fl"></span></p>
+                </div>
+                <div class="boss fl">
+                	<img src="img/sj1.jpg"/>
+                    <p class="dl">Find7</p>
+                    <p class="dl1">4G全能旗舰</p>
+                    <p class="dl2 clearfix">
+                    	<i class="fl jg">￥2999 </i>			
+                        <i class="fl">立即购买</i>
+                        <span class="fl"></span></p>
+                </div>
+                <div class="boss fl four">
+                	<img src="img/sj1.jpg"/>
+                    <p class="dl">Find7</p>
+                    <p class="dl1">4G全能旗舰</p>
+                    <p class="dl2 clearfix">
+                    	<i class="fl jg">￥2999 </i>			
+                        <i class="fl">立即购买</i>
+                        <span class="fl"></span></p>
+                </div>
+            </div>
+        </div> 
+    </div>      
+    <!--明星机型结束-->
+     <!--精选配件开始-->
+  <div class="jxpjall">  
+     <div class="jxpj">
+     	<div class="jxpj-t"><img src="img/jx.png"/></div>
+        <div class="jxpj-c clearfix">
+        	<div class="jxpj-cl fl">
+            	<div class="jxpj-clt clearfix">
+                	<div class="jxpj-cltl fl">
+                    	<img src="img/tp1.png"/>
+                        <p class="dl">可触摸视窗 世界触手可及</p>
+                        <p class="dl1">OPPO Find7 视窗保护皮套</p>
+                        <p class="dl2">￥198.00</p>
+                    </div>
+                    <div class="jxpj-cltr fl">
+                    	<div class="jxpj-cltrt">
+                        	<dl>
+                            	<dt>OPPO手机官网ACCESSORY 配件</dt>
+                               <div class="derji">
+                                <dd class="fl zuo">
+                                	<p><i class="erji1 fl"></i>耳机</p>
+                                    <p><i class="erji2 fl"></i>保护壳</p>
+                                    <p><i class="erji3 fl"></i>皮套</p>
+                                </dd>
+                                <dd class="fl">
+                                	<p><i class="erji4 fl"></i>移动电源</p>
+                                    <p><i class="erji5 fl"></i>贴膜</p>
+                                    <p><i class="erji6 fl"></i>数据线</p>
+                                </dd>
+                             </div>   
+                            </dl>
+                           <a href="#" class="clj"><span class="fl pj1">全部配件</span><i class="fl pj2"></i></a>
+                        </div>
+                        <div class="jxpj-cltrb">
+                        	<img src="img/tp2.png"/>
+                            <p class="">OPPO 原装电源适配器</p>
+                            <p class="dl1">￥58.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="jxpj-clb clearfix">
+                	<img src="img/tp3.png" class="fl jxpj-clbl"/>
+                    <div class="fl jxpj-clbr">
+                    	<p class="dl1">高速传输 信号绑定</p>
+                        <p class="dl2">OPPO 原装USB数据线</p>
+                        <p class="dl3">￥28.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="jxpj-cr fl">
+            	<div class="jxpj-crt clearfix">
+                	<img src="img/tp4.png" class="fl jxpj-crtl"/>
+                    <div class="fl jxpj-crtr">
+                    	<p class="dl">最高直降200元</p>
+                        <p class="dl1">手机搭售VOOC闪充配件</p>
+                        
+                    </div>
+                </div>
+                <div class="jxpj-crb clearfix">
+                	<div class="jxpj-crbl fl">
+                    	<img src="img/tp5.png"/>
+                        <p class="dl">iLIKE 全金属蓝牙耳机LE103</p>
+                        <p class="dl1">让精简更经典</p>
+                        <p class="dl2">￥198.00</p>
+                    </div>
+                    <div class="jxpj-crbr fl">
+                    	<div class="jxpj-crbrt">
+                        	<img src="img/tp6.png"/>
+                            <p class="dl">OPPO原装高品质耳机MH124</p>
+                            <p class="dl1">￥98.00</p>
+                        </div>
+                        <div class="jxpj-crbrb">
+                        	<img src="img/tp7.png"/>
+                            <p class="dl">iLIKE 蓝牙耳机 LE505</p>
+                            <p class="dl1">￥98.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+ </div>    
+      <!--精选配件结束-->
+       <!--探索开始-->
+       	<div class="tsall">
+        	<div class="ts">
+            	<div class="ts-t">
+                	<img src="img/ts.png"/>
+                </div>
+                <div class="ts-c clearfix">
+                	<div class="ts-cl fl">
+                    	<div class="ts-clt">
+                        	<p class="dl">购物赚积分</p>
+                            <p class="dl1">更多惊喜值得期待</p>
+                            <img src="img/tp8.png"/>
+                        </div>
+                        <div class="ts-clb">
+                        	<p class="dl">购物赚积分</p>
+                            <p class="dl1">更多惊喜值得期待</p>
+                            <img src="img/tp9.png"/>
+                        </div>
+                    </div>
+                    <div class="ts-cm fl">
+                    	<div class="ts-cmt">
+                        	<p class="dl">购物赚积分</p>
+                            <p class="dl1">更多惊喜值得期待</p>
+                            <img src="img/tp9.png"/>
+                        </div>
+                        <div class="ts-cmb">
+                        	<p class="dl">购物赚积分</p>
+                            <p class="dl1">更多惊喜值得期待</p>
+                            <img src="img/tp8.png"/>
+                        </div>
+                    </div>
+                    <div class="ts-cr fl">
+                    	<div class="ts-crt clearfix">
+                        	<div class="ts-crtl fl">新闻</div>
+                            <div class="ts-crtr fl">微博</div>
+                        </div>
+                        <div class="ts-crb clearfix">
+                        	<div class="ts-crb1 fl">
+                            	<img src="img/erji.png" class="fl"/>
+                                <p>业界革命，OPPO发布全球最高灵敏度平面振膜耳机PM-1</p>
+                            </div>
+                            <div class="ts-crb1 fl">
+                            	<img src="img/erji.png" class="fl"/>
+                                <p>业界革命，OPPO发布全球最高灵敏度平面振膜耳机PM-1</p>
+                            </div>
+                            <div class="ts-crb1 fl">
+                            	<img src="img/erji.png" class="fl"/>
+                                <p>业界革命，OPPO发布全球最高灵敏度平面振膜耳机PM-1</p>
+                            </div>
+                            <div class="ts-crb1 fl">
+                            	<img src="img/erji.png" class="fl"/>
+                                <p>业界革命，OPPO发布全球最高灵敏度平面振膜耳机PM-1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+        </div>
+       
+       <!--探索结束-->
+      <!--结尾开始-->
+      	<div class="jwall">
+       		<div class="jw">
+            	<div class="jw-t"></div>
+                <div class="jw-c">
+                	<div class="jw-ct clearfix fl">
+                    	<dl class="fl">
+                        	<dt>关于我们</dt>
+                            <dd class="clearfix"><i class="fl"></i>关于OPPO</dd>
+                            <dd class="clearfix"><i class="fl"></i>新闻中心</dd>
+                            <dd class="clearfix"><i class="fl"></i>人才招聘</dd>
+                        </dl>
+                        <dl class="fl">
+                        	<dt>推荐机型</dt>
+                            <dd class="clearfix"><i class="fl"></i>N3</dd>
+                            <dd class="clearfix"><i class="fl"></i>R5</dd>
+                            <dd class="clearfix"><i class="fl"></i>R1C</dd>
+                            <dd class="clearfix"><i class="fl"></i>Find 7</dd>
+                        </dl>
+                        <dl class="fl">
+                        	<dt>关于我们</dt>
+                            <dd class="clearfix"><i class="fl"></i>关于OPPO</dd>
+                            <dd class="clearfix"><i class="fl"></i>新闻中心</dd>
+                            <dd class="clearfix"><i class="fl"></i>人才招聘</dd>
+                        </dl>
+                        <dl class="fl">
+                        	<dt>关于我们</dt>
+                            <dd class="clearfix"><i class="fl"></i>关于OPPO</dd>
+                            <dd class="clearfix"><i class="fl"></i>新闻中心</dd>
+                            <dd class="clearfix"><i class="fl"></i>人才招聘</dd>
+                        </dl>
+                        <dl class="fl">
+                        	<dt>关于我们</dt>
+                            <dd class="clearfix"><span class="fl bj1"></span>关于OPPO</dd>
+                            <dd class="clearfix"><span class="fl bj2"></span>新闻中心</dd>
+                            <dd class="clearfix"><span class="fl bj3"></span>人才招聘</dd>
+                            <dd class="clearfix"><span class="fl bj4"></span>人才招聘</dd>
+                        </dl>
+                    </div>
+                    <div class="jw-cr clearfix fl">
+                       <div class="jw-crt">	
+                        <h2>联系我们</h2>
+                        <i class="fl"></i>
+                        <div class="fl">
+                        	<p class="dl">4001-666-888</p>
+                            <p class="dl1">7*24小时客服电话</p>
+                        </div>
+                       </div>   
+                        <div class="jw-crb">	
+                        <h2>联系我们</h2>
+                        <span class="fl"></span>
+                        <div class="fl">
+                        	<p class="dl">4001-666-888</p>
+                            <p class="dl1">7*24小时客服电话</p>
+                        </div>
+                       </div>   
+                    </div>
+                </div>
+            </div>
+       </div>
+      <!--结尾结束-->
+     <!--last开始-->
+     <div class="zhall">
+     	<div class="zh">
+        	<div class="zh-l fl">
+            	<i class="fl"></i>
+                <p class="fl">㉢ 2005-2015 东莞市永盛通信科技有限公司 版权所有（粤ICP备 08130115 号）</p>
+            </div>
+            <div class="zh-r fr">
+            	<ul class="clearfix">
+                	<li class="fl">版权说明</li>
+                    <li class="fl">使用协议</li>
+                    <li class="fl">网站地图</li>
+                    <li class="fl">友情链接</li>
+                    <li class="fl">联系我们</li>
+                </ul>
+            </div>
+        </div>
+     </div> 
+     <!--last结束--> 
+</body>
+</html>

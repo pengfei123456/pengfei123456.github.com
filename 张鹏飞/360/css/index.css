@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+.all{background:#f4f4f4;}
+/*logo开始*/
+.logoall{width:100%; height:70px; border-bottom:2px solid #22ac38;}
+.w{width:1007px; margin:0 auto;}
+.logo-l{width:150px; height:45px; margin-top:12px; margin-right:14px;}
+.logo-l a{width:150px; height:45px; background:url(../img/360ys.png) no-repeat; padding:0 0 0 0; display:inline-block; text-indent:-999em;}
+.logo-m{margin-top:16px;}
+.logo-m input{width:462px; height:38px; background:#eee; border:none;}
+.logo-m a{background:url(../img/ssk.png); width:38px; height:38px; display:block;}
+.logo-r{margin-top:26px;}
+.logo-r li{color:#666; margin-right:12px;}
+.logo-r .bj1{width:26px; height:26px; background:url(../img/xbt.png) no-repeat; display:block; padding:0 0 0 5px;}
+.logo-r .bj2{width:26px; height:26px; background:url(../img/xbt.png) no-repeat 0 -200px; display:block; padding:0 0 0 5px;}
+.logo-r .bj3{width:26px; height:26px; background:url(../img/xbt.png) no-repeat 0 -400px; display:block; padding:0 0 0 5px;}
+.logo-r li span{margin-top:6px;}
+/*logo结束*/
+/*导航开始*/
+	.nav{margin-top:12px; height:30px;}
+	.nav-l a{font-size:14px; margin-right:30px; color:#666;}
+	.nav-r a{color:#666; margin-right:20px;}
+	.nav-l .first a{color:#22ac38;}
+	.nav-r .last a{margin-right:0;}
+	
+/*导航结束*/
+/*大图开始*/
+/*大图结束*/
+/*今日热门开始*/
+	.jrrm-t{margin-top:38px;}
+	.jrrm-t ul{margin-top:20px;}
+    .jrrm-t li a{border-right:1px solid #bdbdbd; padding:0 14px; color:#242424;}
+	.jrrm-t .jr{font-size:30px; color:#2b2b2b; margin-right:18px;}
+	.jrrm-t h2{font-size:22px; color:#333; margin-top:10px; margin-right:100px;}
+	.jrrm-t .rd a{color:#22ac38;}
+	.jrrm-t .gd a{border-right:none;}
+	
+	.jrrm-c{margin-top:18px;}
+	.jrrm-cl{width:380px; height:288px; background:#fff;}
+	.jrrm-cl .tp{position:relative; width:380px; height:254px;}
+	.jrrm-cl .tp .mask{background:#000; width:100%; height:22px; position:absolute; left:0; bottom:0; opacity:0.5; filter:alpha(opacity=50);}
+	.jrrm-cl .tp .text{color:#fff; font-size:12px; position:absolute; left:4px; bottom:0; line-height:22px;}
+	.jrrm-cl p{padding:14px 0 0 6px; color:#444;}
+	
+	.jrrm-crtl{width:180px; height:135px; background:#fff; margin-left:6px;}
+	.jrrm-crtl .tp{position:relative; width:180px; height:100px;}
+	.jrrm-crtl .tp .mask{background:#000; width:100%; height:22px; position:absolute; left:0; bottom:0; opacity:0.5; filter:alpha(opacity=50);}
+	.jrrm-crtl .tp .text{color:#fff; font-size:12px; position:absolute; left:4px; bottom:0; line-height:22px;}
+	.jrrm-crtl p{padding:14px 0 0 6px; color:#444;}
+	.aima{margin-top:20px;}
+	
+	.jrrm-cm{width:240px; height:288px; background:#fff; margin-left:15px;}
+	.jrrm-cm .tp{position:relative; width:240px; height:120px;}
+	.jrrm-cm .tp .mask{background:#000; width:100%; height:22px; position:absolute; left:0; bottom:0; opacity:0.5; filter:alpha(opacity=50);}
+	.jrrm-cm .tp .text{color:#fff; font-size:12px; position:absolute; left:4px; bottom:0; line-height:22px;}
+	.jrrm-cm p{padding:14px 0 0 6px; color:#444;}
+	
+		
+/*今日热门结束*/
+/*电视剧开始*/
+.dsj{height:660px;}
+.dsj1t{width:180px; height:310px; background:#fff; margin-top:20px; margin-right:10px;}
+.dsj1t .zzc{position:relative; width:180px; height:246px;}
+.dsj1t .zzc .mask{width:100%; height:24px; position:absolute; left:0; bottom:0; background:#000; opacity:0.5; filter:alpha(opacity="50");}
+.dsj1t .zzc .text1{line-height:24px; position:absolute; left:10px; bottom:0; font-size:12px; color:#fff;}
+.dsj1t .zzc .text2{line-height:24px; position:absolute; right:10px; bottom:0; font-size:12px; color:#fff;}
+.dsj1t .zzc .text2 i{color:#94ff77; font-size:14px;}
+.dsj1t .dl{padding:14px 0 0 12px; color:#333;}
+.dsj1t .dl1{padding:8px 0 0 12px; color:#999;}
+
+.dsj5 .gs{position:relative; width:240px; height:120px;}
+.dsj5 .gs .mask{width:100%; height:24px; background:#000; opacity:0.5; filter:alpha(opacity="50"); position:absolute; left:0; bottom:0;}
+.dsj5 .gs .ic{width:36px; height:36px; background:url(../img/yj.png); dispaly:block; position:absolute; left:0; bottom:0; font-size:14px; color:#fff; line-height:36px; text-align:center;}
+.dsj5 .gs .text1{color:#fff; position:absolute; left:46px; bottom:0; line-height:24px;}
+.dsj5 .gs .text2{color:#fff; position:absolute; right:10px; bottom:4px;}
+.dsj5 .gs .text2 a{width:12px; height:10px; background:url(../img/sj.png) no-repeat; margin:3px 6px 0 0;}
+.dsj5{margin-top:20px;}
+.ddh{height:34px; width:240px; line-height:34px;}
+.ddh .dh i{color:#aaa;  margin:0 10px 0 14px;}
+.ddh .yc a{width:12px; height:10px; background:url(../img/sj.png) no-repeat; margin:12px 9px 0 0;}
+.dsj5-t{font-size:20px; color:#2b2b2b; margin-top:30px; width:120px; height:30px; line-height:30px; margin-bottom:18px;}
+.dsj5-c{width:240px; height:138px; background:#fff;}
+.dsj5-c li{margin:16px 0 0 20px;}
+.dsj5-c li i{ padding-right:10px; color:#313131;}
+/*电视剧结束*/
+
+/*电影开始*/
+.dsj{height:660px;}
+.dsj1t{width:180px; height:310px; background:#fff; margin-top:20px; margin-right:10px;}
+.dsj1t .zzc{position:relative; width:180px; height:246px;}
+.dsj1t .zzc .mask{width:100%; height:24px; position:absolute; left:0; bottom:0; background:#000; opacity:0.5; filter:alpha(opacity="50");}
+.dsj1t .zzc .text1{line-height:24px; position:absolute; left:10px; bottom:0; font-size:12px; color:#fff;}
+.dsj1t .zzc .text2{line-height:24px; position:absolute; right:10px; bottom:0; font-size:12px; color:#fff;}
+.dsj1t .zzc .text2 i{color:#94ff77; font-size:14px;}
+.dsj1t .dl{padding:14px 0 0 12px; color:#333;}
+.dsj1t .dl1{padding:8px 0 0 12px; color:#999;}
+
+.dsj5 .gs{position:relative; width:240px; height:120px;}
+.dsj5 .gs .mask{width:100%; height:24px; background:#000; opacity:0.5; filter:alpha(opacity="50"); position:absolute; left:0; bottom:0;}
+.dsj5 .gs .ic{width:36px; height:36px; background:url(../img/yj.png); display:block; position:absolute; left:0; bottom:0; font-size:14px; color:#fff; line-height:36px; text-align:center;}
+.dsj5 .gs .text1{color:#fff; position:absolute; left:46px; bottom:0; line-height:24px;}
+.dsj5 .gs .text2{color:#fff; position:absolute; right:10px; bottom:4px;}
+.dsj5 .gs .text2 a{width:12px; height:10px; background:url(../img/sj.png) no-repeat; margin:3px 6px 0 0;}
+.dsj5{margin-top:20px;}
+.ddh{height:34px; width:240px; line-height:34px;}
+.ddh .dh i{color:#aaa;  margin:0 10px 0 14px;}
+.ddh .yc a{width:12px; height:10px; background:url(../img/sj.png) no-repeat; margin:12px 9px 0 0;}
+.dsj5-t{font-size:20px; color:#2b2b2b; margin-top:30px; width:120px; height:30px; line-height:30px; margin-bottom:18px;}
+.dsj5-c{width:240px; height:138px; background:#fff;}
+.dsj5-c li{margin:16px 0 0 20px;}
+.dsj5-c li i{ padding-right:10px; color:#313131;}
+/*电影结束*/
+/*电影预告开始*/
+.dyyg{height:134px; margin-top:22px;}
+.dyyg1{width:180px; height:134px; background:#fff; margin-right:10px;}
+.dyyg2{width:180px; height:100px; position:relative;}
+.dyyg2 .mask{width:180px; height:22px; position:absolute; left:0; bottom:0; background:#000; opacity:0.5; filter:alpha(opacity="50");}
+.dyyg2 .text{color:#fff; line-height:22px; position:absolute; left:10px; bottom:0;}
+.dyyg2 .yg{position:absolute; left:0; top:0;}
+.dyyg1 p{color:#444; text-align:center; padding-top:12px;}
+
+.dyyg3{width:240px; height:134px;}
+.dyyg4{width:240px; height:100px; position:relative;}
+.dyyg4 .mask{width:240px; height:22px; position:absolute; left:0; bottom:0; background:#000; opacity:0.5; filter:alpha(opacity="50");}
+.dyyg4 .text{color:#fff; line-height:22px; position:absolute; left:34px; bottom:0;}
+.dyyg4 .yg{position:absolute; left:0; top:0;}
+.dyyg3 p{color:#333; margin-top:22px;}
+/*电影预告结束*/
+/*综艺开始*/
+.zy-c{margin-top:18px;}
+	.zy-cl{width:380px; height:288px; background:#fff;}
+	.zy-cl .tp{position:relative; width:380px; height:254px;}
+	.zy-cl .sj{width:12px; height:10px; background:url(../img/sj.png) no-repeat; position:absolute; left:6px; bottom:6px;}
+	.zy-cl .tp .mask{background:#000; width:100%; height:22px; position:absolute; left:0; bottom:0; opacity:0.5; filter:alpha(opacity=50);}
+	.zy-cl .tp .text{color:#fff; font-size:12px; position:absolute; left:24px; bottom:0; line-height:22px;}
+	.zy-cl p{padding:14px 0 0 6px; color:#444;}
+	
+	.zy-crtl{width:180px; height:135px; background:#fff; margin-left:6px;}
+	.zy-crtl .tp{position:relative; width:180px; height:100px;}
+	.zy-crtl .tp .mask{background:#000; width:100%; height:22px; position:absolute; left:0; bottom:0; opacity:0.5; filter:alpha(opacity=50);}
+	.zy-crtl a.sj{width:12px; height:10px; background:url(../img/sj.png) no-repeat; position:absolute; left:10px; bottom:6px;}
+	.zy-crtl .tp .text{color:#fff; font-size:12px; position:absolute; left:30px; bottom:0; line-height:22px;}
+	.zy-crtl p{padding:14px 0 0 6px; color:#444;}
+	.aima{margin-top:20px;}
+	.zy-cm{width:240px; height:288px;}
+	.zy-cm1{width:240px; height:120px; position:relative;}
+	.zy-cm1 .mask{width:100%; height:22px; background:#000; opacity:0.5; position:absolute; left:0; bottom:0;}
+	.zy-cm1 .text1{color:#fff; position:absolute; left:46px; bottom:0; line-height:22px;}
+	.zy-cm1 .text2{color:#fff; position:absolute; right:16px; bottom:0; line-height:22px;}
+	.zy-cm1 .yj1{width:36px; height:36px; background:url(../img/yj.png) no-repeat; position:absolute; left:0; bottom:0; color:#fff; font-size:14px; text-align:center; line-height:36px;}
+	.zy-cm1 .sj1{background:url(../img/sj.png) no-repeat; width:12px; height:10px; position:absolute; right:60px; bottom:6px;}
+	.zy-cm p{width:240px; height:34px; line-height:34px;}
+	.zy-cm p i{color:#aaa; display:block; margin-left:14px;}
+	.zy-cm p b{color:#2b2b2b; display:block; margin-left:24px;}
+	.zy-cm p a{width:12px; height:10px; background:url(../img/sj.png) no-repeat; margin:13px 0 0 35px;}
+	.zy-cm p em{margin-left:11px; color:#aaa;}
+	.zy-cm p .er{color:#57cb47;}
+	.zy-cm .dl3{background:#eee;}
+/*综艺结束*/
+/*动漫开始*/
+.zy-c .kjj{width:250px; height:288px; margin-left:5px; border:none;}
+.jrrm-t .mn a{color:#46c832;}
+.djch{height:409px; margin-top:20px;}
+.jw1{margin-top:200px; text-align:center; color:#666;}
+.jw1 ul li{border-right:1px solid #956695; padding:0 10px; }
+.jw1 ul{text-align:center; margin-left:300px;}
+.jw2 p{margin-right:20px;}
+.jw2{margin-left:336px; margin-top:20px; color:#666;}
+/*动漫结束*/
